@@ -56,12 +56,14 @@
             <input type="radio" name="hardCopy" value="No" id="radio_button">
             <label for="No">No</label>
             <h3>5. Select Your Comfortable Date and Time</h3>
-            <label for="date" id="dateTimeLable"><b>Date: </b></label>
-            <input type="date" value="date" name="date" id="dateTime" required>
-            <br>
-            <label for="time" id="dateTimeLable"><b>Time: </b></label>
-            <input type="time" value="time" name="time" id="dateTime" >
-            <br>
+            <div>
+                <label for="date"><b>Enter a date: </b></label>
+                <input id="date" type="date" class="dateTime">
+              </div>
+              <div>
+                <label for="time"><b>Enter a time: </b></label>
+                <input id="time" type="time" class="dateTime">
+              </div>
             <br>
             <button type="reset" class="button">Reset</button>
             <button type="submit" class="button">Submit</button>

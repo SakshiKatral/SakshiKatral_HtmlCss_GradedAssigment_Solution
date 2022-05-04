@@ -24,12 +24,12 @@ input{
 #radio_button{
     width: 25px;
 }
-#dateTime{
+.dateTime{
     border: 1px solid black;
     width: 150px;
     margin: 5px;
 }
-#dateTimeLable{
+.dateTimeLable{
     width: 100px;
     text-align: right;
     margin: 5px;
@@ -55,9 +55,12 @@ aside{
     position: absolute;
     right: 0px;
     height: 100%;
+    
+ }
+ #rightHalf img{
+     size: 100%;
  }
  #leftHalf {
-    background: url(bg-1.jpg);
     width: 50%;
     position: absolute;
     left: 0px;
