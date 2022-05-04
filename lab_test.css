@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    display: block;
+    margin: 10px;
+}
+aside{
+    margin-left: 10px;
+}
+input{
+    width: 250px;
+    border: white;
+    background-color: white;
+    height: 15px;
+}
+.input_Box{
+    padding: 10px;
+    box-shadow: 7px 7px 7px 7px whitesmoke;
+    margin: 7px;
+}
+#checkbox{
+    width: 25px;
+}
+
+#radio_button{
+    width: 25px;
+}
+#dateTime{
+    border: 1px solid black;
+    width: 150px;
+    margin: 5px;
+}
+#dateTimeLable{
+    width: 100px;
+    text-align: right;
+    margin: 5px;
+    float: left;
+}
+.button{
+    background-color: blueviolet;
+    float: right;
+    margin-right: 50px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+aside{
+    width: 50%;
+}
+#rightHalf {
+
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+ }
+ #leftHalf {
+    background: url(bg-1.jpg);
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+ }
